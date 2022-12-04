@@ -10,7 +10,6 @@ console.log(distributeGifts(packOfGifts, reindeers));
 function distributeGifts(packOfGifts, reindeers) {
   let lengthGift = 0;
   let lengthReindeers = 0;
-  let pack = 0;
 
   packOfGifts.map((gift) => {
     lengthGift = lengthGift + gift.length;
